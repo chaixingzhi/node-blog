@@ -98,6 +98,6 @@ app.use("/resource",require('./routes/resource.js'));
 app.use("/home",require('./routes/home.js'));
 
 
-app.listen(3000,()=>{
-	console.log('server is running at 127.0.0.1:3000')
+app.listen(80,()=>{
+	console.log('server is running at 127.0.0.1')
 });
