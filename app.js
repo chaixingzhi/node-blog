@@ -100,6 +100,4 @@ app.use("/home",require('./routes/home.js'));
 
 app.listen(80,()=>{
 	console.log('server is running at 127.0.0.1')
-<<<<<<< HEAD
 });
->>>>>>> d27d7873e5775aa11c6d5852cbeac436ad7ed970
